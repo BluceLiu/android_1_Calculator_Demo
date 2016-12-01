@@ -1,0 +1,155 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<!--             Alpha 透明度 RGB -->
+<!-- @null 光标颜色与文字相同 -->
+    <EditText
+        android:id="@+id/expression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:background="#000000"
+        android:textColor="#ffffff"
+        android:gravity="right|center_vertical"
+        android:textCursorDrawable="@null"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/del" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/d7"
+            style="@style/btn1"
+            android:text="@string/d7" />
+
+        <Button
+            android:id="@+id/d8"
+            style="@style/btn1"
+            android:text="@string/d8" />
+
+        <Button
+            android:id="@+id/d9"
+            style="@style/btn1"
+            android:text="@string/d9" />
+
+        <Button
+            android:id="@+id/div"
+            style="@style/btn2"
+            android:text="@string/div" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/d4"
+            style="@style/btn1"
+            android:text="@string/d4" />
+
+        <Button
+            android:id="@+id/d5"
+            style="@style/btn1"
+            android:text="@string/d5" />
+
+        <Button
+            android:id="@+id/d6"
+            style="@style/btn1"
+
+            android:layout_weight="1"
+            android:text="@string/d6" />
+
+        <Button
+            android:id="@+id/mul"
+            style="@style/btn2"
+            android:text="@string/mul" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/d1"
+            style="@style/btn1"
+            android:text="@string/d1" />
+
+        <Button
+            android:id="@+id/d2"
+            style="@style/btn1"
+            android:text="@string/d2" />
+
+        <Button
+            android:id="@+id/d3"
+            style="@style/btn1"
+            android:text="@string/d3" />
+
+        <Button
+            android:id="@+id/sub"
+            style="@style/btn2"
+            android:text="@string/sub" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/dot"
+            style="@style/btn1"
+            android:text="@string/dot" />
+
+        <Button
+            android:id="@+id/d0"
+            style="@style/btn1"
+            android:text="@string/d0" />
+
+        <Button
+            android:id="@+id/equal"
+            style="@style/btn2"
+            android:text="@string/equal" />
+
+        <Button
+            android:id="@+id/add"
+            style="@style/btn2"
+            android:text="@string/add" />
+
+    </TableRow>
+
+</TableLayout>
